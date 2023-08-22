@@ -1,0 +1,20 @@
+{
+  "name": "at-a-glance",
+  "version": "1.0.0",
+  "description": "Building a REST API",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "devStart": "nodemon index.js"
+  },
+  "author": "chad",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.4.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}
